@@ -1,0 +1,1 @@
+# skatepark-schachen.ch
