@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400:700');
+* {
+  font-family: 'Droid Sans', serif;
+  font-size: 24px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  word-spacing: 9999999px;
+}
+span.line {
+  display: inline-block;
+}
+
+img.map {
+  box-shadow: 0px 0px 25px 1px #acafaf;
+  border: 4px #fff solid;
+}
+img.map:hover {
+  box-shadow: 0px 0px 25px 1px #949798;
+}
+
+.smaller * {
+  font-size: 18px;
+}
+
+.vertical-space-xs {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.vertical-space-md {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.vertical-space-xl {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+
+.blue-background {
+  background-color: #ADF0FF;
+  color: #151D1F;
+}
+.lighblue-background {
+  background-color: #e7f8ff;
+  color: #151D1F;
+}
+.lime-background {
+  background-color: #D1FFD1;
+}
+.forest-background {
+  background-color: #DDFFEC;
+}
+
+.fa {
+  margin-bottom: 24px;
+  color: #555;
+}
+
+/* medium devices */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+  .vertical-space-xs {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .vertical-space-md {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .vertical-space-xl {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+/* large devices */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+  }
+  .vertical-space-xs {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .vertical-space-md {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .vertical-space-xl {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+/* extra large devices */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 72px;
+  }
+  .vertical-space-xs {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .vertical-space-md {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .vertical-space-xl {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+}
